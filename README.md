@@ -1,2 +1,2 @@
-1 npm i
-2 npm run make
+# 1 npm i
+# 2 npm run make
