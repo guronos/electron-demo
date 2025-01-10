@@ -15,7 +15,19 @@
 	position: absolute;
 	right: 0;
 	top: 4px;
-	display: none;
+	height: 32px;
+	width: 32px;
+	fill: rgb(9, 105, 105);
+	z-index: 1;
+
+	background-color: transparent !important;
+	box-shadow: none !important;
+	cursor: pointer;
+}
+.svg_edit {
+	position: absolute;
+	right: 34px;
+	top: 4px;
 	height: 32px;
 	width: 32px;
 	fill: rgb(9, 105, 105);
@@ -29,6 +41,9 @@
 	position: relative;	
 }
 .table__row:hover .svg_trash {
+	display: block;
+}
+.table__row:hover .svg_edit {
 	display: block;
 }
 
